@@ -19243,3 +19243,13 @@ img{
 	display:none;
 
 }
+.hidden-mobile {
+	display: none;
+  }
+  
+  @media (min-width: 768px) {
+	.hidden-mobile {
+	  display: block;
+	}
+  }
+  
